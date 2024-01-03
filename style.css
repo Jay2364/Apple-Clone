@@ -1,0 +1,352 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f7;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+}
+.nav{
+    /* background-color: aqua; */
+    height: 44px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav a{
+    color: rgb(29, 29, 31);
+    text-decoration: none;
+    margin: 0 1.2rem 0 1.2rem;
+    font-size: 0.73rem;
+    font-weight: 700;
+    opacity: 0.9;
+}
+.nav i{
+    margin: 0 1.2rem 0 1.2rem;
+}
+
+.offer-outer{
+    height: 4rem;
+    width: 100%;
+    background-color: white;
+}
+.offer-outer .offer-inner{
+    background-color: white;
+    height: 2.8rem;
+    width: 76%;
+    margin: 8px 12% 8px 12%;
+}
+.offer-outer .offer-inner p{
+    color: rgb(29, 29, 31);
+    background-color: white;
+    font-size: 14px;
+    font-weight: 500;
+    opacity: 0.99;
+    text-align: center;
+}
+.offer-outer .offer-inner a{
+    text-decoration: none;
+    color: blue;
+}
+
+.container{
+    display: flex;
+    height: 248px;
+}
+.heading-one{
+    width: 80%;
+    height: 170px;
+    padding: 80px 0 64px 10px;
+}
+.heading-one span{
+    font-size: 2.8rem;
+    font-weight: 700;
+}
+.heading-one .design{
+    color: #6e6e73;
+}
+.heading-two{
+    width: 185px;
+}
+.heading-two-inner{
+    height: 106px;
+    width: 185px;
+    margin: 90px 0 54px 0;
+    display: flex;
+    flex-direction: column;
+}
+.specialist{
+    background-color: yellow;
+    height: 50%;
+    display: flex;
+}
+.specialist .image{
+    width: 25%;
+}
+.specialist .image img{
+    height: 2.5rem;
+    margin-top: 5px;
+}
+.specialist .para{
+    width: 75%;
+}
+.specialist .para span{
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+.specialist .para a{
+    text-decoration: none;
+    color: blue;
+    font-weight: 400;
+    font-size: 0.82rem;
+}
+
+.visit{
+    height: 50%;
+    display: flex;
+}
+.visit .image{
+    width: 25%;
+}
+.visit .image img{
+    height: 2.5rem;
+    margin-top: 5px;
+}
+.visit .para{
+    width: 75%;
+}
+.visit .para span{
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+.visit .para a{
+    text-decoration: none;
+    color: blue;
+    font-weight: 400;
+    font-size: 0.82rem;
+}
+
+.products-outer{
+    height: 236px;
+}
+.products-inner{
+    height: 174px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 86%;
+    margin-left: 7%;
+}
+.products-inner .card{
+    background-color: #f5f5f7;
+    width: 136px;
+    height: 148px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: none;
+}
+.products-inner .card .image img{
+    height: 78px;
+    width: 120px;
+}
+.products-inner .card .name{
+    font-size: 0.8rem;
+    font-weight: 700;
+    margin-top: 0.8rem;
+    height: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+.one-time-effort{
+    height: 572px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.one-time-effort .card-section{
+    height: 499px;
+    width: 100%;
+    margin-top: 13px;
+    display: flex;
+}
+.one-time-effort .card{
+    height: 499px;
+    width: 399px;
+    border-radius: 20px;
+    margin: 0 10px 0 10px;
+}
+.one-time-effort img{
+    height: 499px;
+    width: 100%;
+    border-radius: 20px;
+    background-size: cover;
+}
+.one-time-effort .watermark{
+    position: absolute;
+    top: 0px;
+    height: 3rem;
+    background-color: transparent;
+    font-size: 12px;
+    font-weight: 600;
+    color: #6e6e73;
+    margin-left: 25px;
+    margin-top: 30px;
+}
+.one-time-effort .heading{
+    background-color: transparent;
+    position: absolute;
+    top: 0px;
+    margin-top: 3.5rem;
+    height: 3.5rem;
+    font-weight: 700;
+    font-size: 28px;
+    color: #1d1d1f;
+    margin-left: 25px;
+}
+.one-time-effort .price{
+    background-color: transparent;
+    position: absolute;
+    top: 0px;
+    margin-top: 6.2rem;
+    font-size: 17px;
+    color: #353535;
+    margin-left: 25px;
+}
+.one-time-effort .black{
+    color: white;
+}
+.one-time-effort .title{
+    font-size: 28px;
+    font-weight: 600;
+    margin-left: 10px;
+}
+.one-time-effort .title p span{
+    color: #6e6e73;
+}
+
+.service-card-section{
+    width: 100%;
+    height: 266px;
+    display: flex;
+    justify-content: space-between;
+}
+.service-section{
+    height: 367px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.service-section .title{
+    font-size: 28px;
+    font-weight: 600;
+    margin-left: 10px;
+}
+.service-section .title p span{
+    color: #6e6e73;
+}
+.service-section .service-card{
+    background-color: #fbfbfd;
+    box-shadow: 0 0 8px rgb(87, 85, 85, 0.2);
+    height: 250px;
+    width: 270px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 13px;
+}
+.service-card .logo{
+    margin: 1rem 0 0.5rem 1rem;
+    font-size: 45px;
+    background-color: transparent;
+}
+.service-card .info{
+    background-color: transparent;
+    font-size: 24px;
+    font-weight: 600;
+    margin-left: 1rem;
+}
+.service-card-section .service-card .delivery{
+    color: rgb(23, 207, 23);
+    background-color: transparent;
+}
+.service-card-section .service-card .pay{
+    color: #06c;
+    background-color: transparent;
+}
+.service-card-section .service-card .smile{
+    color: rgb(206, 22, 206);
+    background-color: transparent;
+}
+.service-card-section .service-card .apple{
+    color: rgb(225, 98, 24);
+    background-color: transparent;
+}
+
+.one-time-effort-two .card-two{
+    background-color: white;
+    height: 499px;
+    width: 322px;
+    border-radius: 12px;
+    margin: 0 5px 0 5px;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
+.one-time-effort-two .card-two .card-inner{
+    background-color: transparent;
+    height: 7rem;
+    width: 100%;
+    margin-top: 3rem;
+}
+.one-time-effort-two .card-two .image{
+    background-color: transparent;
+}
+.one-time-effort-two .card-two img{
+    height: 230px;
+    width: 230px;
+    border-radius: 20px;
+    background-size: cover;
+    margin-top: 41px;
+}
+.one-time-effort-two .card-two .watermark-two{
+    background-color: transparent;
+    position: absolute;
+    height: 1.1rem;
+    font-size: 12px;
+    color: #bf4800;
+}
+.one-time-effort-two .card-two .heading-two{
+    background-color: transparent;
+    position: absolute;
+    margin-top: 1.5rem;
+    height: 3.5rem;
+    font-weight: 700;
+    font-size: 17px;
+    color: #1d1d1f;
+}
+.one-time-effort-two .card-two .price-two{
+    background-color: transparent;
+    position: absolute;
+    margin-top: 5.6rem;
+    font-size: 14px;
+    font-weight: 400;
+    color: #161617;
+}
+.one-time-effort .card-section .card-three{
+    box-shadow: 0 0 10px rgb(87, 85, 85, 0.2);
+    width: 479px;
+    height: 499px;
+    background-color: wheat;
+    margin-left: 3rem;
+}
+.one-time-effort .card-section .white{
+    color: white;
+    width: 70%;
+}
+
